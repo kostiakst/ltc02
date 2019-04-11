@@ -5,15 +5,9 @@ int reverse_sorter(const void *first_arg, const void *second_arg) {
     int first = *(int*) first_arg;
     int second = *(int*) second_arg;
 	
-    if (first < second) {
-		return 1;
-	}
-	if (first > second) {
-		return -1;
-	}
-	if (first == second) {
-		return 0;
-	}
+    if (first < second) { return 1; }
+	if (first > second) { return -1; }
+	if (first == second) { return 0; }
 
 }
 
