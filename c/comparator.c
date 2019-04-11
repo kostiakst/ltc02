@@ -19,6 +19,7 @@ int main() {
 	qsort(array, len, sizeof(int), reverse_sorter);
 
 	int loop;
+	printf("sorted array: ");
 	for(loop = 0; loop < 10; loop++) {
 		printf("%d ", array[loop]);
 	}
