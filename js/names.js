@@ -9,7 +9,7 @@ function getCount(somePattern, someArray) {
 	let myArray = someArray;
 	let myPattern = somePattern;
     myArray.forEach(function(element) {
-        let isMatch = myPattern.test(element)
+        let isMatch = myPattern.test(element);
         if (isMatch) { numCount++; }
     })
     return numCount;
